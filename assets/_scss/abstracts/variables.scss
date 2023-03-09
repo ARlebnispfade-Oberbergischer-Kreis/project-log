@@ -1,6 +1,29 @@
 /* Farben
 ---------------------------------------------------------------------------- */
 
+/* Color Theme Swatches in Hex */
+$obk-1-hex: #0E6187;
+$obk-2-hex: #D4152E;
+$obk-3-hex: #0091D4;
+$obk-4-hex: #D4CC15;
+$obk-5-hex: #878207;
+
+/* Color Theme Swatches in RGBA */
+$obk-1-rgba: rgba(14,97,135, 1);
+$obk-2-rgba: rgba(212,21,46, 1);
+$obk-3-rgba: rgba(0,145,212, 1);
+$obk-4-rgba: rgba(212,204,21, 1);
+$obk-5-rgba: rgba(135,130,7, 1);
+
+/* Color Theme Swatches in HSLA */
+$obk-1-hsla: hsla(198, 81, 29, 1);
+$obk-2-hsla: hsla(352, 81, 45, 1);
+$obk-3-hsla: hsla(198, 100, 41, 1);
+$obk-4-hsla: hsla(57, 81, 45, 1);
+$obk-5-hsla: hsla(57, 90, 27, 1);
+
+
+
 $medium: #666;
 $dark: #444;
 $darker: #222;
@@ -10,9 +33,9 @@ $lighter: #f2f2f2;
 $lightest:#fff;
 $lighten: rgba(255, 255, 255, 0.06);
 $lighten-strong: rgba(255, 255, 255, 0.2);
-$accent: #fc0;
-$accent-dark: #e8a60c;
-$error: #c00;
+$accent: $obk-3-hsla;
+$accent-dark: $obk-1-hsla;
+$error: $obk-2-hsla;
 $darken: rgba(0, 0, 0, 0.06);
 $darken-medium: rgba(0, 0, 0, 0.1);
 $darken-strong: rgba(0, 0, 0, 0.6);

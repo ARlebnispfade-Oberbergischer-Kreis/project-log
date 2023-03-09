@@ -5,7 +5,5 @@
     calc(var(--responsive-padding-right-left) *2)
     calc(var(--responsive-padding-bottom) *2);
 
-  .logo img{
-    width: 100px;
-  }
+    max-width: 30ch;
 }

@@ -1,7 +1,7 @@
 ---
 layout: simple
 title:  "WPF Digitale Kommunikation"
-subtitle: "Wofür der Spaß?"
+subtitle: "Wahlpflichtmodul in der Medieninformatik"
 ---
 
 Im Rahmen des WPFs werden wir für das Projekt "ARlebnispfade" Vorarbeit leisten und verschiedene Ansätze entwickeln, verproben, verwerfen, etc. Es wird sehr praxisorientiert und explorativ. Im Rahmen des Moduls werden wir KnowHow rund um das Thema WebAR aufbauen und selbiges auf das geförderte Projekt ARlebnisräume OBK anwenden.

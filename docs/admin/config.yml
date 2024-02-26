@@ -1,0 +1,21 @@
+# config.yml
+local_backend: true
+
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: 'assets/uploads'
+
+collections:
+  - name: 'news'
+    label: 'News & Releases'
+    folder: '_news'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'simple' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Subtitle/ Datum', name: 'subtitle', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

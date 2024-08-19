@@ -2,6 +2,7 @@
 layout: simple
 title:  "WPF Digitale Kommunikation"
 subtitle: "Wahlpflichtmodul in der Medieninformatik"
+date: 2023-03-29
 ---
 
 Im Rahmen des WPFs werden wir für das Projekt "ARlebnispfade" Vorarbeit leisten und verschiedene Ansätze entwickeln, verproben, verwerfen, etc. Es wird sehr praxisorientiert und explorativ. Im Rahmen des Moduls werden wir KnowHow rund um das Thema WebAR aufbauen und selbiges auf das geförderte Projekt ARlebnisräume OBK anwenden.

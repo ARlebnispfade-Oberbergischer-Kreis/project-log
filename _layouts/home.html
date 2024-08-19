@@ -2,9 +2,12 @@
 layout: default
 ---
 
-<section class="post-container">
+{% assign sorted_news = site.news  | sort: 'date' | reverse  %}
+{% assign sorted_posts = site.posts  | sort: 'date' | reverse  %}
+
+<section class="post-container scrollable-container">
   <h2>Infos & Dokumentation</h2>
-  {% for post in site.posts reversed %}
+  {% for post in sorted_posts %}
   <div class="teaser">
     <h3 class="teaser__title">{{ post.title }}</h3>
     <h4 class="teaser__subtitle">{{ post.subtitle }}</h4>
@@ -14,14 +17,14 @@ layout: default
   {% endfor %}
 </section>
 
-<div class="news-container">
+<section class="news-container scrollable-container">
   <h2>News & Releases</h2>
-  {% for news in site.news reversed %}
+  {% for news in sorted_news %}
   <div class="teaser">
     <h3 class="teaser__title">{{ news.title }}</h3>
     <h4 class="teaser__subtitle">{{ news.subtitle }}</h4>
     <p class="teaser__text">{{ news.content | markdownify }}</p>
   </div>
   {% endfor %}
-</div>
+</section>
 

@@ -2,6 +2,7 @@
 layout: simple
 title: Gestenerkennung für AR-Content hinzugefügt
 subtitle: 27.09.2023
+date: 2023-09-27
 ---
 Um das Zoomen, drehen und Anpassen von AR-Content wie zum Beispiel 3D Modelle und Videos zu ermöglichen, wurde [arjs-gestures](https://github.com/fcor/arjs-gestures) hinzugefügt.
 

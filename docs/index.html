@@ -20,15 +20,26 @@
   </p>
 </aside>
     <main>
-      <section class="post-container">
+      
+
+
+<section class="post-container scrollable-container">
   <h2>Infos & Dokumentation</h2>
   
   <div class="teaser">
-    <h3 class="teaser__title">Project Log</h3>
-    <h4 class="teaser__subtitle">Wofür der Spaß?</h4>
-    <p class="teaser__text"><p>Dieses Repo nutzen wir für die Dokumentation der TH Projekte, die im Rahmen dieses Vorhabens statt finden.</p>
+    <h3 class="teaser__title">AR.js</h3>
+    <h4 class="teaser__subtitle">Augemented Reality im Web</h4>
+    <p class="teaser__text"><p>AR.js bietet eine leichtgewichtige Bibliothek für AR im Web an und unterstzützt Features wie <strong>Image Tracking</strong>, Location Based und Marker Tracking.</p>
 </p>
-    <a class="teaser__link button" href="http://localhost:4000/project-log/2023/03/10/about.html">mehr Infos zu Project Log</a>
+    <a class="teaser__link button" href="http://localhost:4000/project-log/2023/08/30/ARjs.html">mehr Infos zu AR.js</a>
+  </div>
+  
+  <div class="teaser">
+    <h3 class="teaser__title">Content</h3>
+    <h4 class="teaser__subtitle">Variabel und einfach</h4>
+    <p class="teaser__text"><p>Jeder Spot hat eine markdown-Datei wo alle relevanten Informationen zu dem ARlebnis hinterlegt sind. Das sind zum einen allgemeine Informationen wie historische Daten, aber auch genauere Informationen wie zum Beispiel, welcher Content soll präsentiert werden und was sind die Daten zum Content.</p>
+</p>
+    <a class="teaser__link button" href="http://localhost:4000/project-log/2023/08/30/Content.html">mehr Infos zu Content</a>
   </div>
   
   <div class="teaser">
@@ -39,15 +50,37 @@
     <a class="teaser__link button" href="http://localhost:4000/project-log/2023/03/29/wpf-digitale-kommunikation.html">mehr Infos zu WPF Digitale Kommunikation</a>
   </div>
   
+  <div class="teaser">
+    <h3 class="teaser__title">Project Log</h3>
+    <h4 class="teaser__subtitle">Wofür der Spaß?</h4>
+    <p class="teaser__text"><p>Dieses Repo nutzen wir für die Dokumentation der TH Projekte, die im Rahmen dieses Vorhabens statt finden.</p>
+</p>
+    <a class="teaser__link button" href="http://localhost:4000/project-log/2023/03/10/about.html">mehr Infos zu Project Log</a>
+  </div>
+  
 </section>
 
-<div class="news-container">
+<section class="news-container scrollable-container">
   <h2>News & Releases</h2>
   
   <div class="teaser">
-    <h3 class="teaser__title">Style Anpassungen OBK</h3>
-    <h4 class="teaser__subtitle">23.02.2024</h4>
-    <p class="teaser__text"><p>Auf Wunsch des OBK wurden einige Designtokens/ Styles angepasst, z.B. Schriftfamilie von <em>System-UI</em> zu <em>Verdana</em> geändert.</p>
+    <h3 class="teaser__title">MindAR und threeJS</h3>
+    <h4 class="teaser__subtitle">09.07.2024</h4>
+    <p class="teaser__text"><p>Als eine möglich Alternative für AR.js und A-Frame wurde mindAR mit threeJS testweise implementiert.</p>
+
+<p>Grundlegend ist mindAR mit threeJS leichtgewichtiger, jedoch ist das Tracking multipler Images komplizierter als bei A-Frame.
+A-Frame kommt zudem mit sehr wenig JavaScript aus, threeJS hingehen funktioniert nur mit JavaScript.</p>
+
+<p>mindAR mit threeJS funktioniert sehr gut mit Videos und Audio, bei 3D Modellen bietet sich aber AR.js und A-Frame besser an.</p>
+
+<p>Welche der beiden Technologien verwendet werden soll kann über das Attribut <em>layout</em> in der markdown-Datei des Spots festgelegt werden.</p>
+</p>
+  </div>
+  
+  <div class="teaser">
+    <h3 class="teaser__title">README mit IOS byte-range-Problem angepasst</h3>
+    <h4 class="teaser__subtitle">25.03.2024</h4>
+    <p class="teaser__text"><p>In der README.md wurde das byte-range-Problem notiert und in einem verlinkten Issue genauer beschrieben. Es geht darum, dass IOS versucht, Videos nur teilweise anzufragen (byte für byte) und das der Produktion-Server auch kann, jedoch kommt anscheinend AR.js bzw. A-Frame damit nicht klar.</p>
 </p>
   </div>
   
@@ -59,9 +92,37 @@
   </div>
   
   <div class="teaser">
+    <h3 class="teaser__title">Style Anpassungen OBK</h3>
+    <h4 class="teaser__subtitle">23.02.2024</h4>
+    <p class="teaser__text"><p>Auf Wunsch des OBK wurden einige Designtokens/ Styles angepasst, z.B. Schriftfamilie von <em>System-UI</em> zu <em>Verdana</em> geändert.</p>
+</p>
+  </div>
+  
+  <div class="teaser">
     <h3 class="teaser__title">Datenschutzerklärung und Impressum hinzugefügt</h3>
     <h4 class="teaser__subtitle">22.02.2024</h4>
     <p class="teaser__text"><p>In Absprache mit dem OBK wurden die Datenschutzerklärung und ein Impressum integriert.</p>
+</p>
+  </div>
+  
+  <div class="teaser">
+    <h3 class="teaser__title">Variable Transformation für Content hinzugefügt</h3>
+    <h4 class="teaser__subtitle">21.01.2024</h4>
+    <p class="teaser__text"><p>Die markdown-Dateien enthalten nun Information für die Transformation des Contents, also Position, Skalierung (Größe) und Rotation. Diese Daten müssen zuvor für jeden AR-Spot getestet werden und können dann, bei korrekter Angabe, das Erlebnis verbessern.</p>
+</p>
+  </div>
+  
+  <div class="teaser">
+    <h3 class="teaser__title">Noch mehr AR-Spots hinzugefügt</h3>
+    <h4 class="teaser__subtitle">20.01.2024</h4>
+    <p class="teaser__text"><p>Sobald Content für AR-Spots verfügbar war, wurde diese Spots und der Content hinzugefügt.</p>
+</p>
+  </div>
+  
+  <div class="teaser">
+    <h3 class="teaser__title">Weitere AR-Spots und Content hinzugefügt</h3>
+    <h4 class="teaser__subtitle">15.01.2024</h4>
+    <p class="teaser__text"><p>Der Prototyp wurde mit den noch fehlenden AR-Spots und dem zugehörigen Content erweitert und getestet.</p>
 </p>
   </div>
   
@@ -80,13 +141,112 @@
   </div>
   
   <div class="teaser">
+    <h3 class="teaser__title">Mediesteuerung für Video und Audio hinzugefügt</h3>
+    <h4 class="teaser__subtitle">20.12.2023</h4>
+    <p class="teaser__text"><p>Eine simple Mediensteuerung für Videos und Audio wurde dem DOM hinzugefügt. Diese sitzt über der ausfahrbaren Card und unter dem Content. Die Steuerung erscheint erst, wenn Content präsentiert wird.</p>
+</p>
+  </div>
+  
+  <div class="teaser">
+    <h3 class="teaser__title">Weiterer Content zu AR-Spots hinzugefügt</h3>
+    <h4 class="teaser__subtitle">27.11.2023</h4>
+    <p class="teaser__text"><p>Sobald mehr Content zu den AR-Spots vefügbar war, wurde er hinzugefügt und getestet. Unter anderem Videos und Audio.</p>
+</p>
+  </div>
+  
+  <div class="teaser">
+    <h3 class="teaser__title">Struktur für verscheidenen AR-Conten implementiert</h3>
+    <h4 class="teaser__subtitle">03.11.2023</h4>
+    <p class="teaser__text"><p>Für die Content-Arten Video, Audio und Modell wurden unterschiedliche Bausteine für den Aufbau des DOM implementiert.</p>
+</p>
+  </div>
+  
+  <div class="teaser">
+    <h3 class="teaser__title">ARlebnis-Daten zu Card hinzugefügt</h3>
+    <h4 class="teaser__subtitle">27.10.2023</h4>
+    <p class="teaser__text"><p>Die Informationen zu jedem ARlebnis wurden der jeweiligen Card hinzugefügt. Dabei wurde darauf geachtet, dass die Card wenn nötig scrollable ist und sich dem jweiligen Screen anpasst.</p>
+</p>
+  </div>
+  
+  <div class="teaser">
+    <h3 class="teaser__title">Impressum verweist vorerst auf das Impressum der TH Köln</h3>
+    <h4 class="teaser__subtitle">13.10.2023</h4>
+    <p class="teaser__text"><p>Das Impressum von arlebnisobk verweist vorerst auf das Impressum der TH Köln, da noch Feinheiten geklärt werden müssen.</p>
+</p>
+  </div>
+  
+  <div class="teaser">
+    <h3 class="teaser__title">Versuch, Youtube in ARjs zu präsentieren</h3>
+    <h4 class="teaser__subtitle">12.10.2023</h4>
+    <p class="teaser__text"><p>Um eventuell bereits bestehende Videos zu AR-Spots in der Augmnented Reality zu präenstieren, wurden verschiede Möglichkeiten getestet, das <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">CORS</a> Problem zu lösen.</p>
+
+<p>Leider war keiner der Versuche erfolgreich, daher wurde, falls ein Youtube-Video verwendet werden soll, dieses in der Card eingebunden:</p>
+</p>
+  </div>
+  
+  <div class="teaser">
+    <h3 class="teaser__title">Gestenerkennung für AR-Content hinzugefügt</h3>
+    <h4 class="teaser__subtitle">27.09.2023</h4>
+    <p class="teaser__text"><p>Um das Zoomen, drehen und Anpassen von AR-Content wie zum Beispiel 3D Modelle und Videos zu ermöglichen, wurde <a href="https://github.com/fcor/arjs-gestures">arjs-gestures</a> hinzugefügt.</p>
+
+<p>Anzumerken ist, dass besonders bei 3D-Modellen die Achsen passen müssen, da diese sich sonst nicht nicht, wie in dem Beispiel von arjs-gestures zu sehen ist, rotieren lassen.</p>
+</p>
+  </div>
+  
+  <div class="teaser">
+    <h3 class="teaser__title">Erste Version des Impressums und des Datenschutzes hinzugefügt</h3>
+    <h4 class="teaser__subtitle">21.09.2023</h4>
+    <p class="teaser__text"><p>Eine erste Version des Impressums sowie des Datenschutzes wurde in Absprache mit dem OBK hinzugefügt und auf der Seite im Footer verlinkt.</p>
+</p>
+  </div>
+  
+  <div class="teaser">
+    <h3 class="teaser__title">Bisher bestätigte AR-Spots hinzugefügt</h3>
+    <h4 class="teaser__subtitle">14.09.2023</h4>
+    <p class="teaser__text"><p>Für folgende AR-Spots wurden die .md-files und jeweils ein Teaser-Bild hinzugefügt.</p>
+
+<p>Whiel:</p>
+<ul>
+  <li>Bergischer Löwe</li>
+  <li>St. Bonifatius</li>
+  <li>Burghaus</li>
+  <li>Eisenbahnbrücke</li>
+  <li>Steinbrecher Weiershagen</li>
+  <li>Haus Krandenberg</li>
+</ul>
+
+<p>Wipperfürth:</p>
+<ul>
+  <li>Nikolauskirche</li>
+  <li>Ohler Brücke/Fort</li>
+  <li>Franziskaner Kloster</li>
+  <li>Haus am Markt - Brunnen</li>
+</ul>
+</p>
+  </div>
+  
+  <div class="teaser">
+    <h3 class="teaser__title">Einfaches Card-Layout hinzugefügt</h3>
+    <h4 class="teaser__subtitle">13.09.2023</h4>
+    <p class="teaser__text"><p>Weitere Informationen, wie zum Beispiel Text oder externe Videos, zu einem AR-Spot können mittels einer <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Card">Card</a> von den Nutzern eingeblendet werden.</p>
+</p>
+  </div>
+  
+  <div class="teaser">
+    <h3 class="teaser__title">Erste AR Version mittels ARjs</h3>
+    <h4 class="teaser__subtitle">30.08.2023</h4>
+    <p class="teaser__text"><p>Für einen ersten Prototyp wurde <a href="https://ar-js-org.github.io/AR.js-Docs/image-tracking/">AR.js</a> als WebAR-Technology gewählt, da es einen einfachen Einstieg in AR mittels <strong>Image Tracking</strong> bietet.</p>
+</p>
+  </div>
+  
+  <div class="teaser">
     <h3 class="teaser__title">Projekt Log</h3>
     <h4 class="teaser__subtitle">09.03.2023</h4>
     <p class="teaser__text"><p>Projekt Log in der ersten Version aufgesetzt. Juchu.</p>
 </p>
   </div>
   
-</div>
+</section>
 
 
     </main>

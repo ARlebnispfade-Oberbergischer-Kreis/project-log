@@ -1,5 +1,5 @@
 <?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!DOCTYPE svg PUBLIC -//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <!--
 2016-2-8: Created with FontForge (http://fontforge.org)
 -->
@@ -21,7 +21,7 @@ Copyright 2015 Google, Inc. All Rights Reserved.
     descent="0"
     bbox="0 0 512 512"
     underline-thickness="50"
-    underline-position="-100"
+    underline-position=-100"
     unicode-range="U+0030-10FFFD"
   />
     <missing-glyph />

@@ -5,12 +5,6 @@ body{
 
 main{
   flex-grow: 1;
-  padding:
-  calc(var(--responsive-padding-top) *2)
-  calc(var(--responsive-padding-right-left) *2)
-  calc(var(--responsive-padding-right-left) *2)
-  calc(var(--responsive-padding-bottom) *2);
-
   max-width: $column-large;
 }
 
@@ -31,10 +25,14 @@ main{
 ############################################################################ */
 
 @media screen and (min-width: $vp-large) {
-  .news-container,
-  .post-container{
+  .scrollable-container{
     height: 90vh;
+    overflow-y: auto;
     border-left: $border-stroke-weight solid $darken;
-    padding-left: var(--responsive-padding-right-left);
+  padding:
+  calc(var(--responsive-padding-top) *2)
+  calc(var(--responsive-padding-right-left) *2)
+  calc(var(--responsive-padding-right-left) *2)
+  calc(var(--responsive-padding-bottom) *2);
   }
 }

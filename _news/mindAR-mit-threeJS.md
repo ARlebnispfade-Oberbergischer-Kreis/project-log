@@ -2,6 +2,7 @@
 layout: simple
 title: MindAR und threeJS
 subtitle: 09.07.2024
+date: 2024-07-09
 ---
 
 Als eine möglich Alternative für AR.js und A-Frame wurde mindAR mit threeJS testweise implementiert.
